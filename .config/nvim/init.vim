@@ -72,4 +72,4 @@ vnoremap J :m '>+1<CR>gv=gv
 tnoremap <Esc> <C-\><C-n>
 
 " split the terminal vertically an open terminal emulator
-nnoremap <leader>q :vs<Bar>te<CR>
+nnoremap <leader>vs :vs<Bar>te<CR>
