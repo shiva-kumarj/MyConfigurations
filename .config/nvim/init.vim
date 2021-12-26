@@ -67,3 +67,9 @@ nnoremap K :m .-2<CR>==
 nnoremap J :m .+1<CR>==
 vnoremap K :m '<-2<CR>gv=gv
 vnoremap J :m '>+1<CR>gv=gv
+
+" normal mode for neovim terminal
+tnoremap <Esc> <C-\><C-n>
+
+" split the terminal vertically an open terminal emulator
+nnoremap <leader>q :vs<Bar>te<CR>
